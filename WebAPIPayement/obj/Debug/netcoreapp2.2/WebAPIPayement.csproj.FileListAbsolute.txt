@@ -1,0 +1,15 @@
+/home/anonymous/RiderProjects/WebAPIPayement/WebAPIPayement/bin/Debug/netcoreapp2.2/WebAPIPayement.dll.config
+/home/anonymous/RiderProjects/WebAPIPayement/WebAPIPayement/bin/Debug/netcoreapp2.2/WebAPIPayement.deps.json
+/home/anonymous/RiderProjects/WebAPIPayement/WebAPIPayement/bin/Debug/netcoreapp2.2/WebAPIPayement.runtimeconfig.json
+/home/anonymous/RiderProjects/WebAPIPayement/WebAPIPayement/bin/Debug/netcoreapp2.2/WebAPIPayement.runtimeconfig.dev.json
+/home/anonymous/RiderProjects/WebAPIPayement/WebAPIPayement/bin/Debug/netcoreapp2.2/WebAPIPayement.dll
+/home/anonymous/RiderProjects/WebAPIPayement/WebAPIPayement/bin/Debug/netcoreapp2.2/WebAPIPayement.pdb
+/home/anonymous/RiderProjects/WebAPIPayement/WebAPIPayement/obj/Debug/netcoreapp2.2/WebAPIPayement.csprojAssemblyReference.cache
+/home/anonymous/RiderProjects/WebAPIPayement/WebAPIPayement/obj/Debug/netcoreapp2.2/WebAPIPayement.csproj.CoreCompileInputs.cache
+/home/anonymous/RiderProjects/WebAPIPayement/WebAPIPayement/obj/Debug/netcoreapp2.2/WebAPIPayement.RazorAssemblyInfo.cache
+/home/anonymous/RiderProjects/WebAPIPayement/WebAPIPayement/obj/Debug/netcoreapp2.2/WebAPIPayement.RazorAssemblyInfo.cs
+/home/anonymous/RiderProjects/WebAPIPayement/WebAPIPayement/obj/Debug/netcoreapp2.2/WebAPIPayement.AssemblyInfoInputs.cache
+/home/anonymous/RiderProjects/WebAPIPayement/WebAPIPayement/obj/Debug/netcoreapp2.2/WebAPIPayement.AssemblyInfo.cs
+/home/anonymous/RiderProjects/WebAPIPayement/WebAPIPayement/obj/Debug/netcoreapp2.2/WebAPIPayement.RazorTargetAssemblyInfo.cache
+/home/anonymous/RiderProjects/WebAPIPayement/WebAPIPayement/obj/Debug/netcoreapp2.2/WebAPIPayement.dll
+/home/anonymous/RiderProjects/WebAPIPayement/WebAPIPayement/obj/Debug/netcoreapp2.2/WebAPIPayement.pdb
