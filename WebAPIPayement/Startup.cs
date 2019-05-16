@@ -32,7 +32,7 @@ namespace WebAPIPayement
             //connection to db
             //_connectionString = Configuration["connectionString"];
             services.AddEntityFrameworkMySql()
-                .AddDbContext<PayementDbContext>(
+                .AddDbContext<ApplicationDbContext>(
                     opt=>opt.UseMySql(Configuration.GetConnectionString("DefaultConnection")));
         }
 

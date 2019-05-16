@@ -2,7 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2cb74831-31eb-4acb-bf2c-85b7e7555136" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/WebAPIPayement/Models/PayementDetail.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPIPayement/Models/PayementDetail.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebAPIPayement/Controllers/PayementDetailsController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebAPIPayement/Models/Admin.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebAPIPayement/Models/Article.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebAPIPayement/Models/Category.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebAPIPayement/Models/Client.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebAPIPayement/Models/Command.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebAPIPayement/Models/User.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebAPIPayement/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebAPIPayement/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebAPIPayement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebAPIPayement/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPIPayement/Migrations/20190515111320_initialMigration.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPIPayement/Migrations/20190515111320_initialMigration.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPIPayement/Migrations/20190515113058_addValidationAnnotation.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPIPayement/Migrations/20190515113058_addValidationAnnotation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPIPayement/Migrations/PayementDbContextModelSnapshot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPIPayement/Models/PayementDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPIPayement/Models/ApplicationDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPIPayement/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPIPayement/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPIPayement/WebAPIPayement.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPIPayement/WebAPIPayement.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPIPayement/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPIPayement/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPIPayement/bin/Debug/netcoreapp2.2/WebAPIPayement.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPIPayement/bin/Debug/netcoreapp2.2/WebAPIPayement.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPIPayement/bin/Debug/netcoreapp2.2/WebAPIPayement.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPIPayement/bin/Debug/netcoreapp2.2/WebAPIPayement.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPIPayement/bin/Debug/netcoreapp2.2/WebAPIPayement.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPIPayement/bin/Debug/netcoreapp2.2/WebAPIPayement.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPIPayement/obj/Debug/netcoreapp2.2/WebAPIPayement.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPIPayement/obj/Debug/netcoreapp2.2/WebAPIPayement.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPIPayement/obj/Debug/netcoreapp2.2/WebAPIPayement.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPIPayement/obj/Debug/netcoreapp2.2/WebAPIPayement.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPIPayement/obj/Debug/netcoreapp2.2/WebAPIPayement.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPIPayement/obj/Debug/netcoreapp2.2/WebAPIPayement.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPIPayement/obj/Debug/netcoreapp2.2/WebAPIPayement.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPIPayement/obj/Debug/netcoreapp2.2/WebAPIPayement.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPIPayement/obj/Debug/netcoreapp2.2/WebAPIPayement.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPIPayement/obj/Debug/netcoreapp2.2/WebAPIPayement.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPIPayement/obj/WebAPIPayement.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPIPayement/obj/WebAPIPayement.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPIPayement/obj/WebAPIPayement.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPIPayement/obj/WebAPIPayement.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPIPayement/obj/WebAPIPayement.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPIPayement/obj/WebAPIPayement.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPIPayement/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPIPayement/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPIPayement/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPIPayement/obj/project.packagespec.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,48 +42,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebAPIPayement/Models/PayementDbContext.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="67" selection-start-line="9" selection-start-column="67" selection-end-line="9" selection-end-column="67" />
-              <folding>
-                <marker date="1557859462540" expanded="true" signature="68:293" ph="{...}" />
-                <marker date="1557859462540" expanded="true" signature="115:291" ph="{...}" />
-                <marker date="1557859462540" expanded="true" signature="196:216" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/WebAPIPayement/Models/PayementDetail.cs">
+        <entry file="file://$PROJECT_DIR$/WebAPIPayement/Models/ApplicationDbContext.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+            <state relative-caret-position="419">
+              <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
               <folding>
-                <marker date="1557919772872" expanded="true" signature="77:590" ph="{...}" />
-                <marker date="1557919772872" expanded="true" signature="111:588" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebAPIPayement/Startup.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="6" selection-start-column="6" selection-end-column="6" />
-              <folding>
-                <marker date="1557859830024" expanded="true" signature="6:468" ph="..." />
-                <marker date="1557859830024" expanded="true" signature="494:1897" ph="{...}" />
-                <marker date="1557859830024" expanded="true" signature="521:1895" ph="{...}" />
-                <marker date="1557859830024" expanded="true" signature="580:643" ph="{...}" />
-                <marker date="1557859830024" expanded="true" signature="866:1281" ph="{...}" />
-                <marker date="1557859830024" expanded="true" signature="991:1078" ph="/* connection to db ... */" />
-                <marker date="1557859830024" expanded="true" signature="1469:1889" ph="{...}" />
-                <marker date="1557859830024" expanded="true" signature="1516:1593" ph="{...}" />
-                <marker date="1557859830024" expanded="true" signature="1610:1813" ph="{...}" />
+                <marker date="1558027197877" expanded="true" signature="68:726" ph="{...}" />
+                <marker date="1558027197877" expanded="true" signature="118:724" ph="{...}" />
+                <marker date="1558027197877" expanded="true" signature="202:222" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -65,17 +62,35 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/WebAPIPayement/Models/PayementDbContext.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WebAPIPayement/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebAPIPayement/Controllers/PayementDetailsController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebAPIPayement/Models/User.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebAPIPayement/Models/ApplicationDbContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebAPIPayement/Models/PayementDetail.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebAPIPayement/Models/Client.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebAPIPayement/Models/Admin.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebAPIPayement/Models/Article.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebAPIPayement/Models/Category.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebAPIPayement/Models/Command.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebAPIPayement/Startup.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/WebAPIPayement/Models/PayementDetail.cs" />
         <option value="$PROJECT_DIR$/WebAPIPayement/Models/PayementDbContext.cs" />
+        <option value="$PROJECT_DIR$/WebAPIPayement/Controllers/PayementDetailsController.cs" />
+        <option value="$PROJECT_DIR$/WebAPIPayement/Migrations/20190515111320_initialMigration.Designer.cs" />
+        <option value="$PROJECT_DIR$/WebAPIPayement/Migrations/20190515113058_addValidationAnnotation.Designer.cs" />
+        <option value="$PROJECT_DIR$/WebAPIPayement/Migrations/PayementDbContextModelSnapshot.cs" />
         <option value="$PROJECT_DIR$/WebAPIPayement/Startup.cs" />
         <option value="$PROJECT_DIR$/WebAPIPayement/appsettings.json" />
-        <option value="$PROJECT_DIR$/WebAPIPayement/Models/PayementDetail.cs" />
+        <option value="$PROJECT_DIR$/WebAPIPayement/Models/User.cs" />
+        <option value="$PROJECT_DIR$/WebAPIPayement/Models/Admin.cs" />
+        <option value="$PROJECT_DIR$/WebAPIPayement/Models/Category.cs" />
+        <option value="$PROJECT_DIR$/WebAPIPayement/Models/Article.cs" />
+        <option value="$PROJECT_DIR$/WebAPIPayement/Models/Client.cs" />
+        <option value="$PROJECT_DIR$/WebAPIPayement/Models/Command.cs" />
+        <option value="$PROJECT_DIR$/WebAPIPayement/Models/ApplicationDbContext.cs" />
       </list>
     </option>
   </component>
@@ -91,14 +106,16 @@
     <option name="width" value="1366" />
     <option name="height" value="719" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystemExplorer" />
       <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -115,7 +132,13 @@
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="WebAPIPayement" type="24d0babc:SolutionExplorerModelNode" />
               <item name="WebAPIPayement" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Dependencies" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Controllers" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="WebAPIPayement" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="WebAPIPayement" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Models" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
@@ -190,12 +213,15 @@
       <option name="presentableId" value="Default" />
       <updated>1557850000327</updated>
       <workItem from="1557850004405" duration="3227000" />
-      <workItem from="1557917859802" duration="1914000" />
+      <workItem from="1557917859802" duration="3968000" />
+      <workItem from="1557927342515" duration="19000" />
+      <workItem from="1557928650248" duration="6850000" />
+      <workItem from="1558017560756" duration="3653000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5141000" />
+    <option name="totallyTimeSpent" value="17717000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -210,24 +236,25 @@
     <frame x="0" y="23" width="1366" height="719" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2159091" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18560606" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3197279" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="NuGet" order="7" weight="0.5076142" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.50680274" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Unit Tests" order="11" />
       <window_info anchor="bottom" id="REST Client" order="12" />
-      <window_info anchor="bottom" id="Terminal" order="13" weight="0.32994923" />
+      <window_info anchor="bottom" id="Terminal" order="13" weight="0.74319726" />
       <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="15" weight="0.6020408" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -251,50 +278,174 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/WebAPIPayement/appsettings.json">
+    <entry file="file://$PROJECT_DIR$/WebAPIPayement/Migrations/20190515111320_initialMigration.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="61" selection-start-line="2" selection-start-column="61" selection-end-line="2" selection-end-column="61" />
+        <state relative-caret-position="-253">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebAPIPayement/Migrations/20190515111320_initialMigration.Designer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebAPIPayement/Migrations/20190515113058_addValidationAnnotation.Designer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebAPIPayement/Migrations/PayementDbContextModelSnapshot.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebAPIPayement/Startup.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        <state relative-caret-position="-356">
+          <caret line="34" column="50" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
           <folding>
-            <marker date="1557859830024" expanded="true" signature="6:468" ph="..." />
-            <marker date="1557859830024" expanded="true" signature="494:1897" ph="{...}" />
-            <marker date="1557859830024" expanded="true" signature="521:1895" ph="{...}" />
-            <marker date="1557859830024" expanded="true" signature="580:643" ph="{...}" />
-            <marker date="1557859830024" expanded="true" signature="866:1281" ph="{...}" />
-            <marker date="1557859830024" expanded="true" signature="991:1078" ph="/* connection to db ... */" />
-            <marker date="1557859830024" expanded="true" signature="1469:1889" ph="{...}" />
-            <marker date="1557859830024" expanded="true" signature="1516:1593" ph="{...}" />
-            <marker date="1557859830024" expanded="true" signature="1610:1813" ph="{...}" />
+            <marker date="1558022463133" expanded="true" signature="6:468" ph="..." />
+            <marker date="1558022463133" expanded="true" signature="494:1900" ph="{...}" />
+            <marker date="1558022463133" expanded="true" signature="521:1898" ph="{...}" />
+            <marker date="1558022463133" expanded="true" signature="580:643" ph="{...}" />
+            <marker date="1558022463133" expanded="true" signature="866:1284" ph="{...}" />
+            <marker date="1558022463133" expanded="true" signature="991:1078" ph="/* connection to db ... */" />
+            <marker date="1558022463133" expanded="true" signature="1472:1892" ph="{...}" />
+            <marker date="1558022463133" expanded="true" signature="1519:1596" ph="{...}" />
+            <marker date="1558022463133" expanded="true" signature="1613:1816" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebAPIPayement/Models/PayementDbContext.cs">
+    <entry file="file://$PROJECT_DIR$/WebAPIPayement/appsettings.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="67" selection-start-line="9" selection-start-column="67" selection-end-line="9" selection-end-column="67" />
+        <state relative-caret-position="23">
+          <caret line="1" column="24" lean-forward="true" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebAPIPayement/Controllers/PayementDetailsController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
           <folding>
-            <marker date="1557859462540" expanded="true" signature="68:293" ph="{...}" />
-            <marker date="1557859462540" expanded="true" signature="115:291" ph="{...}" />
-            <marker date="1557859462540" expanded="true" signature="196:216" ph="{...}" />
+            <marker date="1558022063209" expanded="true" signature="6:181" ph="..." />
+            <marker date="1558022063209" expanded="true" signature="219:2988" ph="{...}" />
+            <marker date="1558022063209" expanded="true" signature="333:2986" ph="{...}" />
+            <marker date="1558022063209" expanded="true" signature="467:519" ph="{...}" />
+            <marker date="1558022063209" expanded="true" signature="659:744" ph="{...}" />
+            <marker date="1558022063209" expanded="true" signature="890:1128" ph="{...}" />
+            <marker date="1558022063209" expanded="true" signature="1019:1082" ph="{...}" />
+            <marker date="1558022063209" expanded="true" signature="1290:1903" ph="{...}" />
+            <marker date="1558022063209" expanded="true" signature="1341:1406" ph="{...}" />
+            <marker date="1558022063209" expanded="true" signature="1496:1575" ph="{...}" />
+            <marker date="1558022063209" expanded="true" signature="1624:1860" ph="{...}" />
+            <marker date="1558022063209" expanded="true" signature="1685:1760" ph="{...}" />
+            <marker date="1558022063209" expanded="true" signature="1781:1844" ph="{...}" />
+            <marker date="1558022063209" expanded="true" signature="2070:2297" ph="{...}" />
+            <marker date="1558022063209" expanded="true" signature="2467:2810" ph="{...}" />
+            <marker date="1558022063209" expanded="true" signature="2594:2657" ph="{...}" />
+            <marker date="1558022063209" expanded="true" signature="2895:2980" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebAPIPayement/Models/Admin.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding>
+            <marker date="1558026540553" expanded="true" signature="77:328" ph="{...}" />
+            <marker date="1558026540553" expanded="true" signature="102:326" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebAPIPayement/Models/User.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="44" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="14" selection-end-column="44" />
+          <folding>
+            <marker date="1558022728917" expanded="true" signature="77:336" ph="{...}" />
+            <marker date="1558022728917" expanded="true" signature="101:334" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebAPIPayement/Models/PayementDetail.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        <state>
+          <caret selection-end-column="44" />
           <folding>
             <marker date="1557919772872" expanded="true" signature="77:590" ph="{...}" />
             <marker date="1557919772872" expanded="true" signature="111:588" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebAPIPayement/Models/Article.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="28" column="64" selection-start-line="28" selection-start-column="64" selection-end-line="28" selection-end-column="64" />
+          <folding>
+            <marker date="1558026951857" expanded="true" signature="6:92" ph="..." />
+            <marker date="1558026951857" expanded="true" signature="125:738" ph="{...}" />
+            <marker date="1558026951857" expanded="true" signature="152:736" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebAPIPayement/Models/Client.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="8" selection-end-column="18" />
+          <folding>
+            <marker date="1558027029181" expanded="true" signature="6:78" ph="..." />
+            <marker date="1558027029181" expanded="true" signature="111:722" ph="{...}" />
+            <marker date="1558027029181" expanded="true" signature="137:720" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebAPIPayement/Models/Command.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding>
+            <marker date="1558027082537" expanded="true" signature="6:58" ph="..." />
+            <marker date="1558027082537" expanded="true" signature="91:620" ph="{...}" />
+            <marker date="1558027082537" expanded="true" signature="118:618" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebAPIPayement/Models/Category.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="29" />
+          <folding>
+            <marker date="1558026721901" expanded="true" signature="6:78" ph="..." />
+            <marker date="1558026721901" expanded="true" signature="111:375" ph="{...}" />
+            <marker date="1558026721901" expanded="true" signature="139:373" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebAPIPayement/Models/ApplicationDbContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+          <folding>
+            <marker date="1558027197877" expanded="true" signature="68:726" ph="{...}" />
+            <marker date="1558027197877" expanded="true" signature="118:724" ph="{...}" />
+            <marker date="1558027197877" expanded="true" signature="202:222" ph="{...}" />
           </folding>
         </state>
       </provider>

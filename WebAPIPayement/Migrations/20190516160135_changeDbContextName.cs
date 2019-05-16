@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace WebAPIPayement.Migrations
 {
-    public partial class initialMigration : Migration
+    public partial class changeDbContextName : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -13,10 +13,10 @@ namespace WebAPIPayement.Migrations
                 {
                     Id = table.Column<int>(nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
-                    CardOwnerName = table.Column<string>(nullable: true),
-                    CardNumber = table.Column<string>(nullable: true),
-                    ExpirationDate = table.Column<string>(nullable: true),
-                    CVV = table.Column<string>(nullable: true)
+                    CardOwnerName = table.Column<string>(maxLength: 10, nullable: false),
+                    CardNumber = table.Column<string>(nullable: false),
+                    ExpirationDate = table.Column<string>(nullable: false),
+                    CVV = table.Column<string>(maxLength: 3, nullable: false)
                 },
                 constraints: table =>
                 {

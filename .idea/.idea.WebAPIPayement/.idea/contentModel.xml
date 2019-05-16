@@ -6,16 +6,23 @@
     <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="WebAPIPayement" t="IncludeRecursive">
         <e p="Controllers" t="Include">
+          <e p="PayementDetailsController.cs" t="Include" />
           <e p="ValuesController.cs" t="Include" />
         </e>
         <e p="Migrations" t="Include">
-          <e p="20190515111320_initialMigration.Designer.cs" t="Include" />
-          <e p="20190515111320_initialMigration.cs" t="Include" />
-          <e p="PayementDbContextModelSnapshot.cs" t="Include" />
+          <e p="20190516160135_changeDbContextName.Designer.cs" t="Include" />
+          <e p="20190516160135_changeDbContextName.cs" t="Include" />
+          <e p="ApplicationDbContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="Models" t="Include">
-          <e p="PayementDbContext.cs" t="Include" />
+          <e p="Admin.cs" t="Include" />
+          <e p="ApplicationDbContext.cs" t="Include" />
+          <e p="Article.cs" t="Include" />
+          <e p="Category.cs" t="Include" />
+          <e p="Client.cs" t="Include" />
+          <e p="Command.cs" t="Include" />
           <e p="PayementDetail.cs" t="Include" />
+          <e p="User.cs" t="Include" />
         </e>
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">

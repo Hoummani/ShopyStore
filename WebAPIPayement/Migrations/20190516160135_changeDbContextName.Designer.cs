@@ -7,9 +7,9 @@ using WebAPIPayement.Models;
 
 namespace WebAPIPayement.Migrations
 {
-    [DbContext(typeof(PayementDbContext))]
-    [Migration("20190515113058_addValidationAnnotation")]
-    partial class addValidationAnnotation
+    [DbContext(typeof(ApplicationDbContext))]
+    [Migration("20190516160135_changeDbContextName")]
+    partial class changeDbContextName
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
