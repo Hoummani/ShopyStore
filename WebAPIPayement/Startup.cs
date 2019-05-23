@@ -34,6 +34,10 @@ namespace WebAPIPayement
             services.AddEntityFrameworkMySql()
                 .AddDbContext<ApplicationDbContext>(
                     opt=>opt.UseMySql(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddCors(options => options.AddPolicy("CorsPolicy", builder =>
+                {
+                    builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
+                }));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -51,6 +55,7 @@ namespace WebAPIPayement
 
             app.UseHttpsRedirection();
             app.UseMvc();
+            app.UseCors("CorsPolicy");
         }
     }
 }
